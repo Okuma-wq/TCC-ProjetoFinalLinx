@@ -1,5 +1,8 @@
 # ProjetoLinx
 
+## Sobre
+Este projeto foi realizado como TCC do curso de desenvolvimento de sistemas do Senai de Informatica e com mentoria da empresa Linx e tinha como objetivo encontrar uma maneira de facilitar a marcação e realização de reuniões entre fornecedores e lojistas
+
 ## Como Rodar Migrations
 Para executar as mitrations é necessário instalar a ferramenta do dotnet para EntityFramework, para instalala utilize o seguinte comando: 
 ```
