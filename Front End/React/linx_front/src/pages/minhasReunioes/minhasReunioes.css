@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alata';
+}
+
+
+.cabecalhoReunioes{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cabecalhoReunioes h1{
+    color: #fff;
+    border-bottom: 2px solid white;
+}
+
+.cabecalhoReunioes img{
+    width: 200px;
+}
+
+.reunioes-content{
+    width: 80vw;
+    min-height: 100vh;
+    height: auto;
+    /* background-color: red; */
+}
+
+.areaCardsReuniao{
+    margin-top: 30px;
+}
+
+.CardReuniao{
+    width: 90%;
+    background-color: #411E5A;
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.CardReuniaoContent{
+    height: 80%;
+    width: 96%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}

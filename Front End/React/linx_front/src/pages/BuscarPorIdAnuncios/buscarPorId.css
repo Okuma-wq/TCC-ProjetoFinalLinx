@@ -1,0 +1,80 @@
+.body {
+    background: linear-gradient(to right, #F0462D, #FFB200);
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content {
+    width: 90%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.cardAnuncio {
+    width: 80%;
+    min-height: 550px;
+    height: auto;
+    background-color: #411E5A;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.cabecalho{
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+.descricao {
+    white-space: pre-line;
+    width: 100%;
+    min-height: 300px;  
+    /* background-color: red; */
+    height: 70%;
+    margin-top:30px;
+}
+
+.espaço {
+    height: 30px;
+}
+
+.areaBotao{
+    margin-top: 25px;
+    width: 95%;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.areaBotao button {
+    width: 15em;
+    padding: 1.1em;
+    margin-right: 12px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #F0462D;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.respostaProposta{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cabecalho h4{
+    background-color: red;
+}

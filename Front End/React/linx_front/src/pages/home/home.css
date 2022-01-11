@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alata';
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: #F0462D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.centro {
+    width: 100%;
+    height: 491px;
+    background-image: url("../../assets/imagens/image9.png");
+    background-size: cover;
+    
+}
+
+.coverDoBanner {
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(65, 30, 90, 0.6);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.textos {
+    width: 45%;
+    font-size: 29px;
+    /* background-color: rebeccapurple; */
+    /* margin-top: -60px; */
+    margin-left: 100px;
+    color: #FFFFFF;
+}
+
+.textos h2{
+    font-size: 1.7em;
+}
+
+.textos button{
+    margin-top: 20px;
+    border: 0;
+    color: #fff;
+    width: 329px;
+    height: 71px;
+    background: #F0462D;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.btn-home{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn{
+    background-color: #794C8B;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+
+.img-logo{
+    width: 100px;
+}
+
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+
+.form h1{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Cards{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: red; */
+}

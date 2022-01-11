@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alata';
+}
+
+.login-content{
+    width: 60vw;
+    height: 75vh;
+    background-color: #411E5A;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 45px;
+}
+
+.form-content-login{
+    margin: 40px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.head-login{
+    color: white;
+}
+
+.head-login h1{
+    letter-spacing: 2.5px;
+    margin-bottom: 10px;
+}
+
+.head-login p{
+    margin-bottom: 15px;
+}
+
+.horizontal-line{
+    width: 280px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.inputs-login input{
+    width: 350px;
+    height: 45px;
+    margin-bottom: 30px;
+    background-color: #411E5A;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.btn-login{
+    width: 250px;
+    height: 60px;
+    background-color: #F0462D;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+
+.btn-loading{
+    width: 250px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+
+.card-link{
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+}
+
+.card-link-link{
+    color: #F0462D;
+}
